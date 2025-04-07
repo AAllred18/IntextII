@@ -19,7 +19,7 @@ const AppNavbar = () => {
       <Container>
         <Navbar.Brand as={Link} to="/">
           <FontAwesomeIcon icon={faFilm} className="me-2" />
-          Movie Recommendations
+          This Project is an ABomination Movie Recommendations
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
