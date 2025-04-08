@@ -20,7 +20,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("https://mango-tree-0671b9b1e.6.azurestaticapps.net")
+        policy.WithOrigins("https://brave-cliff-03996c21e.6.azurestaticapps.net")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
