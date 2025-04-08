@@ -19,15 +19,15 @@ const AppNavbar = () => {
       <Container>
         <Navbar.Brand as={Link} to="/">
           <FontAwesomeIcon icon={faFilm} className="me-2" />
-          This Project is an ABomination Movie Recommendations
+          CineNiche
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/">Hodfsame</Nav.Link>
-            <Nav.Link as={Link} to="/movies">Mofdsavies</Nav.Link>
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/movies">Movies</Nav.Link>
             {isAuthenticated() && (
-              <Nav.Link as={Link} to="/my-ratings">My Rafdsatings</Nav.Link>
+              <Nav.Link as={Link} to="/my-ratings">My Ratings</Nav.Link>
             )}
             {isAdmin() && (
               <Nav.Link as={Link} to="/admin/movies">
